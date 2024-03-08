@@ -1,0 +1,192 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET /dice/ HTTP/1.1" 200 1
+"GET /dice/ HTTP/1.1" 200 1
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2746
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2740
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2770
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2770
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2760
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2760
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py", line 8, in index
+    return render(request, 'index_file.html')
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index_file.html
+"GET / HTTP/1.1" 500 80744
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 168
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2936
+"GET / HTTP/1.1" 200 168
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2936
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8
+"GET /index/ HTTP/1.1" 200 168
+"GET /index/ HTTP/1.1" 200 168
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8
+"GET /index/ HTTP/1.1" 200 217
+"GET /index/ HTTP/1.1" 200 217
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /index/ HTTP/1.1" 200 211
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8
+"GET /index/ HTTP/1.1" 200 196
+"GET /index/ HTTP/1.1" 200 196
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8
+"GET /index/ HTTP/1.1" 200 204
+"GET /index/ HTTP/1.1" 200 204
+Not Found: /index/About us
+"GET /index/About%20us HTTP/1.1" 404 2953
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 188
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2936
+Not Found: /About
+"GET /About HTTP/1.1" 404 2918
+"GET / HTTP/1.1" 200 222
+Not Found: /About
+"GET /About HTTP/1.1" 404 2918
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2921
+Not Found: /Index
+"GET /Index HTTP/1.1" 404 2918
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\dmitr\OneDrive\Рабочий стол\Django_sem_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 184
+"GET /about/ HTTP/1.1" 200 328
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2942
+"GET / HTTP/1.1" 200 207
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2942
+"GET / HTTP/1.1" 200 204
+"GET / HTTP/1.1" 200 204
+"GET / HTTP/1.1" 200 204
+"GET / HTTP/1.1" 200 204
+"GET / HTTP/1.1" 200 204
+"GET / HTTP/1.1" 200 216
+Not Found: /about.html
+"GET /about.html HTTP/1.1" 404 2939
+Not Found: /about.html
+"GET /about.html HTTP/1.1" 404 2939
+Not Found: /about.html
+"GET /about.html HTTP/1.1" 404 2939
+Not Found: /about.html
+"GET /about.html HTTP/1.1" 404 2939
+"GET /about/ HTTP/1.1" 200 328
+"GET /about/ HTTP/1.1" 200 328
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2927
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2927
+Not Found: /about.html
+"GET /about.html HTTP/1.1" 404 2939
+Not Found: /about.html
+"GET /about.html HTTP/1.1" 404 2939
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2942
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 217
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2942
+Not Found: /myapp/about
+"GET /myapp/about HTTP/1.1" 404 2942
+Not Found: /myapp/about
+"GET /myapp/about HTTP/1.1" 404 2942
+Not Found: /myapp/about
+"GET /myapp/about HTTP/1.1" 404 2942
+Not Found: /myapp/about
+"GET /myapp/about HTTP/1.1" 404 2942
+Not Found: /myapp/about
+"GET /myapp/about HTTP/1.1" 404 2942
+Not Found: /myapp/about
+"GET /myapp/about HTTP/1.1" 404 2942
+Not Found: /myapp/about
+"GET /myapp/about HTTP/1.1" 404 2942
+"GET /about/ HTTP/1.1" 200 328
+"GET / HTTP/1.1" 200 212
+"GET /about/ HTTP/1.1" 200 328
+"GET /about/ HTTP/1.1" 200 328
+"GET / HTTP/1.1" 200 216
+"GET / HTTP/1.1" 200 221
+"GET / HTTP/1.1" 200 264
+"GET / HTTP/1.1" 200 232
+"GET /about/ HTTP/1.1" 200 328
+"GET /about/ HTTP/1.1" 200 328
+"GET / HTTP/1.1" 200 232
+"GET /about/ HTTP/1.1" 200 628
+"GET / HTTP/1.1" 200 838
+"GET /about/ HTTP/1.1" 200 628
+"GET /about/ HTTP/1.1" 200 602
+"GET /about/ HTTP/1.1" 200 602
+"GET /about/ HTTP/1.1" 200 602
+"GET /about/ HTTP/1.1" 200 626
+"GET /about/ HTTP/1.1" 200 626
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2942
